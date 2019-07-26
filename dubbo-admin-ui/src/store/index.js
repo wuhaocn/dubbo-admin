@@ -22,7 +22,7 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {
-    appTitle: 'Dubbo Admin',
+    appTitle: 'CinCloud Admin',
     area: null,
     serviceItems: null,
     appItems: null

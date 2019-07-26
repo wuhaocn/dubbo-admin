@@ -31,7 +31,6 @@ const Menu = [
     ]
   },
   { title: 'serviceTest', path: '/test', icon: 'code' },
-  { title: 'serviceMock', path: '/mock', icon: 'build', badge: 'feature' },
   { title: 'metrics', path: '/metrics', icon: 'show_chart', badge: 'feature' },
   { title: 'configManage', path: '/management', icon: 'build' }
 ]
