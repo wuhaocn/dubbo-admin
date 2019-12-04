@@ -26,6 +26,19 @@
 * [application.properties配置说明](https://github.com/apache/dubbo-admin/wiki/Dubbo-Admin%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E)  
 
 
+### docker 打包
+1. 下载代码: `git clone https://github.com/apache/dubbo-admin.git`
+2. 在 `dubbo-admin-server/src/main/resources/application.properties`中指定注册中心地址
+3. 构建
+
+    > - `mvn clean package`  
+4. 启动 
+   拷贝`cd dubbo-admin-distribution/target/dubbo-admin-0.1.jar` 至 '0.1.0'
+
+5.执行docker-build.sh
+
+6. 访问 `http://localhost:8080`
+
 ### 生产环境配置
 
 1. 下载代码: `git clone https://github.com/apache/dubbo-admin.git`
