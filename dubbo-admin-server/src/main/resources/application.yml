@@ -1,0 +1,15 @@
+admin:
+  apollo:
+    appId: test
+    cluster: default
+    env: dev
+    namespace: dubbo
+    token: e16e5cd903fd0c97a116c873b448544b9d086de9
+  config-center: ${ZK_URL:zookeeper://10.10.208.125:7998}
+  config-center.group: dubbo
+  metadata-report:
+    address: ${ZK_URL:zookeeper://10.10.208.125:7998}
+    group: dubbo
+  registry:
+    address: ${ZK_URL:zookeeper://10.10.208.125:7998}
+    group: dubbo
